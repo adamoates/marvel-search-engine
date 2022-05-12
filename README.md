@@ -3,7 +3,7 @@
 Marvel Search Engine is an application build with the Marvel Developers API.
 Allowing fans and collectors to track and monitor comic releases, series and character info.
 
-## How to access the Marvel Developers API
+## Visit the link to create a Marvel Developers API key
 
 [Marvel Developers Link](https://developer.marvel.com/signup)
 
