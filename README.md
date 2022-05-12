@@ -1,8 +1,34 @@
 # Marvel Search Engine
 
-docker-compose build
-docker-compose up -d mongo
-docker-compose up -d app
-docker-compose up -d client
-docker-compose up
-docker-compose down
+Marvel Search Engine is an application build with the Marvel Developers API.
+Allowing fans and collectors to track and monitor comic releases, series and character info.
+
+## How to access the Marvel Developers API
+
+[Marvel Developers Link](https://developer.marvel.com/signup)
+
+## Docker commands
+
+### Docker command to build the project
+
+```docker-compose build```
+
+### Docker command to start the project
+
+```docker-compose up```
+
+### Docker command to build the mongodb
+
+```docker-compose up -d mongo```
+
+### Docker command to build the api
+
+```docker-compose up -d app```
+
+### Docker command to build the frontend
+
+```docker-compose up -d client```
+
+### Docker command to shutdown the project
+
+```docker-compose down```
