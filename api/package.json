@@ -1,0 +1,26 @@
+{
+  "name": "marvel-search-engine",
+  "version": "1.0.0",
+  "description": "Search engine using Marvel's developer API ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon --ignore app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon app.js"
+  },
+  "author": "adamcodertrader",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.6.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6"
+  }
+}
