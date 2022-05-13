@@ -11,10 +11,7 @@ Visit the link to create a Marvel Developers API key
 
 [Marvel Developers Portal Link](https://developer.marvel.com/documentation/getting_started)
 
-Make sure the API key is formatted with md5 digest
-
-ts - a timestamp
-hash - a md5 digest of the ts parameter, your private key and your public key (e.g. md5(ts+privateKey+publicKey))
+Make sure the API key is formatted with md5 digest (e.g. md5(ts+privateKey+publicKey))
 
 For example, a user with a public key of "1234" and a private key of "abcd" could construct a valid call as follows:
 
