@@ -4,7 +4,7 @@ const router = express.Router();
 
 module.exports = () => {
   router.get("/", (req, res) => {
-    res.send("Marvel Search Engine API");
+    res.send(`<h1>Marvel Search Engine API</h1>`);
   });
 
   return router;
