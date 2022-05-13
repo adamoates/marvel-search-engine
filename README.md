@@ -8,6 +8,7 @@ Allowing fans and collectors to track and monitor comic releases, series and cha
 ---
 
 Node.js
+Express
 React
 
 ## Marvel Developer Portal API
